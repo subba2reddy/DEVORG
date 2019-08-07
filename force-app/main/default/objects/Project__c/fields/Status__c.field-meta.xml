@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status__c</fullName>
+    <externalId>false</externalId>
+    <label>Status</label>
+    <picklist>
+        <picklistValues>
+            <fullName>Running</fullName>
+            <default>false</default>
+        </picklistValues>
+        <picklistValues>
+            <fullName>Billable</fullName>
+            <default>false</default>
+        </picklistValues>
+        <picklistValues>
+            <fullName>Billed</fullName>
+            <default>false</default>
+        </picklistValues>
+        <restrictedPicklist>true</restrictedPicklist>
+        <sorted>false</sorted>
+    </picklist>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+</CustomField>

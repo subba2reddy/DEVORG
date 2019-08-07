@@ -1,0 +1,16 @@
+<apex:page standardController="Product2" recordSetVar="Products">
+    <apex:form >
+        <apex:pageBlock title="Products">
+            <apex:pageBlockTable value="{!Products}" var="product">
+                <apex:column value="{!product.name}"/>
+                <apex:column value="{!product.Description}" />
+            </apex:pageBlockTable>
+            <center>
+                <apex:panelGrid columns="2">
+                    <apex:commandLink action="{!next}" value="Next"/>
+                    <apex:commandLink action="{!Previous}" value="Previous"/>
+                </apex:panelGrid>
+            </center>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>
