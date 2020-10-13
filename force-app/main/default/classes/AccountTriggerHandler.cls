@@ -1,6 +1,7 @@
 /* Author: Subba Reddy */
 public class AccountTriggerHandler 
 {
+    // Constructor
     public static void hasOpportunities(Map<Id, Account> AccountMap){
         for(Account a: [Select id,(select id from opportunities) from Account where id in :AccountMap.Keyset()] ){
             if(a.opportunities.size()>0){
