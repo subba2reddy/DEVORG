@@ -35,6 +35,7 @@ public class AccountTriggerHandler
      */
     public AccountTriggerHandler bind(Evt event, HandlerInterface eh)
     {
+        System.debug('in bind method');
         List<HandlerInterface> handlers = eventHandlerMapping.get(event.name());
         if (handlers == null) 
         {
