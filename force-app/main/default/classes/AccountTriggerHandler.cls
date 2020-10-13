@@ -3,7 +3,7 @@ public class AccountTriggerHandler
 {
     // Constructor
     public static void hasOpportunities(Map<Id, Account> AccountMap){
-        System.debug('In constructor');
+        System.debug('In constructor example');
         for(Account a: [Select id,(select id from opportunities) from Account where id in :AccountMap.Keyset()] ){
             if(a.opportunities.size()>0){
                 a.addError('Account cannot be delete as it has Opportunies associated');
