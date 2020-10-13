@@ -1,3 +1,4 @@
+/* Author: Subba Reddy */
 public class AccountTriggerHandler 
 {
     public static void hasOpportunities(Map<Id, Account> AccountMap){
