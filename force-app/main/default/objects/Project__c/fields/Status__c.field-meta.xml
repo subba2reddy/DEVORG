@@ -3,24 +3,29 @@
     <fullName>Status__c</fullName>
     <externalId>false</externalId>
     <label>Status</label>
-    <picklist>
-        <picklistValues>
-            <fullName>Running</fullName>
-            <default>false</default>
-        </picklistValues>
-        <picklistValues>
-            <fullName>Billable</fullName>
-            <default>false</default>
-        </picklistValues>
-        <picklistValues>
-            <fullName>Billed</fullName>
-            <default>false</default>
-        </picklistValues>
-        <restrictedPicklist>true</restrictedPicklist>
-        <sorted>false</sorted>
-    </picklist>
     <required>false</required>
     <trackHistory>true</trackHistory>
     <trackTrending>false</trackTrending>
     <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Running</fullName>
+                <default>false</default>
+                <label>Running</label>
+            </value>
+            <value>
+                <fullName>Billable</fullName>
+                <default>false</default>
+                <label>Billable</label>
+            </value>
+            <value>
+                <fullName>Billed</fullName>
+                <default>false</default>
+                <label>Billed</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
 </CustomField>

@@ -9,6 +9,8 @@ public class AccountTriggerHandler
             if(a.opportunities.size()>0){
                 a.addError('Account cannot be delete as it has Opportunies associated');
             }   
+
+            
         }
     }
     
