@@ -14,6 +14,7 @@ public class CaseTriggerHandler {
     // EXCEEDED exception as it could consume a lot of CPU if the volumes are a little high. So we avoided nested for loops
     // by going for maps.
     public static void updateContact(List<Case> cases){
+        System.debug('merge conflict remote');
     	Set<String> contactEmails = new Set<String>();
     	for(Case c: cases){
     		contactEmails.add(c.contactEmail);
