@@ -8,6 +8,7 @@ public class CaseTriggerHandler {
     }
 
 // Dummy line
+// Merge conflict		
     // Example for nested for loops
     // One way this could have been done is to get a list of cases and list of contacts and loop through them to 
     // see if the emails match and update the contactid but that would be inefficient and could cause APEX CPU LIMIT 
