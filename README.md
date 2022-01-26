@@ -7,5 +7,3 @@
 ## Description of Files and Directories
 
 ## Issues
-
-## Test comment for git revert
