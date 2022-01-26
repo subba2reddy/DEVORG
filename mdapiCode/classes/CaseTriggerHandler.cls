@@ -1,3 +1,6 @@
+/* Author: Subba Reddy
+   Date: Today
+*/
 public class CaseTriggerHandler {
     public static void updateCasePreviousStatus(List<Case> newCaseList, Map<Id,Case> oldCaseMap){
         for(Case c: newCaseList){
